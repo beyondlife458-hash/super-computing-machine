@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe | LimitlessMindTH</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    .card {
+      width: 90%;
+      max-width: 450px;
+      padding: 45px 25px;
+      border-radius: 25px;
+      background: #1e1e1e;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+
+    .logo {
+      font-size: 60px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #bbb;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .subscribe {
+      display: inline-block;
+      background: #ff0000;
+      color: white;
+      padding: 16px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .subscribe:hover {
+      transform: scale(1.05);
+    }
+
+    .small {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="logo">🚀</div>
+
+    <h1>LimitlessMindTH</h1>
+
+    <p>
+      Welcome to my channel!<br>
+      Subscribe and join the journey 🔥
+    </p>
+
+    <a
+      class="subscribe"
+      href="https://www.youtube.com/@LimitlessMindTH?sub_confirmation=1"
+      target="_blank"
+      rel="noopener"
+    >
+      🔴 SUBSCRIBE NOW
+    </a>
+
+    <div class="small">
+      YouTube will open so you can confirm your subscription.
+    </div>
+
+  </div>
+
+</body>
+</html>
