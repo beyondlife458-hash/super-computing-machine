@@ -1,0 +1,23 @@
+<div class="download-box">
+  <h2>Granny Legacy Remake</h2>
+  <p>Download the APK for Android</p>
+
+  <a href="YOUR_APK_DOWNLOAD_LINK">
+    <button class="download-btn">⬇ Download APK</button>
+  </a>
+</div>
+
+<style>
+.download-box {
+  text-align: center;
+  padding: 30px;
+}
+
+.download-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+</style>
