@@ -93,7 +93,7 @@
     >
       🔴 SUBSCRIBE NOW
     </a>
-    <!DOCTYPE html>
+    <<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -103,53 +103,61 @@
 
     <style>
         body {
+            margin: 0;
+            min-height: 100vh;
             font-family: Arial, sans-serif;
-            text-align: center;
             background: #111;
             color: white;
-            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+            padding: 40px 20px;
+            box-sizing: border-box;
         }
 
         h1 {
-            font-size: 32px;
+            margin-bottom: 15px;
         }
 
         p {
             color: #ccc;
-            font-size: 18px;
+            margin-bottom: 30px;
         }
 
         .download-btn {
-            display: inline-block;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 16px;
             background: #22c55e;
             color: white;
-            padding: 15px 25px;
-            border-radius: 10px;
             text-decoration: none;
+            border-radius: 10px;
             font-size: 18px;
             font-weight: bold;
-            margin-top: 20px;
-        }
-
-        .download-btn:hover {
-            background: #16a34a;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Granny Legacy Remake</h1>
+    <div class="container">
 
-    <p>Download the APK for Android</p>
+        <h1>Granny Legacy Remake</h1>
 
-    <a class="download-btn"
-       href="https://drive.google.com/file/d/1mC5sN8mHu3zBq7BNwQm_HbJKns0QMoBf/view?usp=drivesdk"
-       target="_blank">
-        ⬇️ Download APK
-    </a>
+        <p>Download the APK for Android</p>
+
+        <a class="download-btn"
+           href="https://drive.google.com/file/d/1mC5sN8mHu3zBq7BNwQm_HbJKns0QMoBf/view?usp=drivesdk"
+           target="_blank">
+            ⬇️ Download APK
+        </a>
+
+    </div>
 
 </body>
 </html>
-    
-
